@@ -1,14 +1,16 @@
 <html lang="en-us">
   <head>
     <title>My Tweet Card</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
       <div>
         <!-- Profile Image -->
         <img
-          src="/images/profile-picture.jpg"
+          src="./images/profile-picture.jpg"
           alt="This is the profile picture of Hansel Praise"
+          id="profile-image"
         />
         <div>
           <div>
@@ -20,7 +22,7 @@
               role="img"
               class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-1cvl2hr r-f9ja8p r-og9te1 r-3t4u6i"
               data-testid="icon-verified"
-              style="width: 20px"
+              style="width: 16px; fill: #1d9bf0"
             >
               <g>
                 <path
@@ -29,7 +31,7 @@
               </g>
             </svg>
           </div>
-          <a href="https://x.com/hannytalker">@hannytalker</a>
+          <a href="https://x.com/hannytalker" id="username">@hannytalker</a>
         </div>
       </div>
       <div>
@@ -76,16 +78,16 @@
         >
       </p>
       <img
-        src="/images/graduate-trainee.jpeg"
+        src="./images/graduate-trainee.jpeg"
         alt="A flyer for the Graduate Trainee Program"
-        style="width: 600px"
+        id="tweet-image"
       />
     </main>
 
     <div>11:42 AM · Sep 11, 2026 · 19.7K Views</div>
 
     <footer>
-      <span>
+      <span class="tweet-metrics">
         <!-- Comment Icon -->
         <svg
           style="width: 20px"
@@ -102,7 +104,7 @@
         <span>4</span>
       </span>
 
-      <span>
+      <span class="tweet-metrics">
         <!-- Retweet Icon -->
         <svg
           viewBox="0 0 24 24"
@@ -119,7 +121,7 @@
         <span>26</span>
       </span>
 
-      <span>
+      <span class="tweet-metrics">
         <!-- Like Icon -->
         <svg
           viewBox="0 0 24 24"
@@ -136,7 +138,7 @@
         <span>117</span>
       </span>
 
-      <span
+      <span class="tweet-metrics"
         ><!-- Bookmark Icon -->
         <svg
           viewBox="0 0 24 24"
@@ -152,7 +154,7 @@
         </svg>
         <span>279</span></span
       >
-      <span>
+      <span class="tweet-metrics">
         <!-- Share Icon -->
         <svg
           viewBox="0 0 24 24"

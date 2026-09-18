@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#profile-image {
+  width: 60px;
+  border-radius: 30px;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+#username {
+  text-decoration: none;
+  color: grey;
+  font-size: 12px;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
+
+#tweet-image {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 25px;
+}
+
+.tweet-metrics{
+	background-color: blue;
+}

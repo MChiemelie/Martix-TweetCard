@@ -49,7 +49,6 @@ body > div {
 }
 
 header {
-  background-color: plum;
   display: flex;
   justify-content: space-between;
 }

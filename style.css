@@ -40,10 +40,6 @@ button {
   border: 1px #dddddd solid;
 }
 
-.tweet-metrics {
-  /* background-color: blue; */
-}
-
 body > div {
   max-width: 600px;
   margin: 40px auto;
